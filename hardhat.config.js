@@ -6,5 +6,9 @@ require("@nomiclabs/hardhat-waffle");
 require("./tasks/faucet");
 
 module.exports = {
-  solidity: "0.7.3"
+  solidity: "0.8.7",
+  //networks: {
+    //ropsten: {
+      //url: "https://ropsten.infura.io/v3/b9f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8",
+      //accounts: [`0x${ROPSTEN_PRIVATE_KEY}`],
 };

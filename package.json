@@ -31,5 +31,9 @@
     "ethers": "^5.0.0",
     "hardhat": "^2.0.4",
     "husky": "^4.2.5"
+  },
+  "dependencies": {
+    "@ethersproject/contracts": "^5.4.1",
+    "@superfluid-finance/js-sdk": "^0.5.4"
   }
 }
